@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Force HTTPS + redirection vers acces-pbn-seo.crseo.click
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^acces-pbn-seo\.crseo\.click$ [NC]
+RewriteRule ^(.*)$ https://acces-pbn-seo.crseo.click/$1 [L,R=301]
