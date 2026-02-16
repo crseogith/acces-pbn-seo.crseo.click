@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acces-pbn-seo.crseo.click/sitemap.xml
